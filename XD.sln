@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp多线程编程实战", "CSharp多线程编程实战", "{FABAFBEA-34CD-43E7-925F-B28C101B65C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Chapter_1_创建线程", "1_Chapter_1_创建线程\1_Chapter_1_创建线程.csproj", "{05230DED-5E1D-4177-9BDF-1A05FD3BF43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Chapter_2_暂停线程", "1_Chapter_2_暂停线程\1_Chapter_2_暂停线程.csproj", "{2DB1091B-200F-4F97-A84C-D10D29873299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Chapter_3_线程等待", "1_Chapter_3_线程等待\1_Chapter_3_线程等待.csproj", "{9FFBC604-BBD5-4F46-A5D3-24EDB2572672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Chapter_4_终止线程", "1_Chapter_4_终止线程\1_Chapter_4_终止线程.csproj", "{B4BE4C08-9912-4C30-A867-8ED42D4B0A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Chapter_5_检测线程状态", "1_Chapter_5_检测线程状态\1_Chapter_5_检测线程状态.csproj", "{90A21C71-8B84-4B6D-B04B-FBC893DFFE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Chapter_6_线程优先级", "1_Chapter_6_线程优先级\1_Chapter_6_线程优先级.csproj", "{5F6CAB25-88E9-4375-B154-8BAA8918BCD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05230DED-5E1D-4177-9BDF-1A05FD3BF43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05230DED-5E1D-4177-9BDF-1A05FD3BF43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05230DED-5E1D-4177-9BDF-1A05FD3BF43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05230DED-5E1D-4177-9BDF-1A05FD3BF43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB1091B-200F-4F97-A84C-D10D29873299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB1091B-200F-4F97-A84C-D10D29873299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB1091B-200F-4F97-A84C-D10D29873299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB1091B-200F-4F97-A84C-D10D29873299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFBC604-BBD5-4F46-A5D3-24EDB2572672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFBC604-BBD5-4F46-A5D3-24EDB2572672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFBC604-BBD5-4F46-A5D3-24EDB2572672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFBC604-BBD5-4F46-A5D3-24EDB2572672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BE4C08-9912-4C30-A867-8ED42D4B0A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BE4C08-9912-4C30-A867-8ED42D4B0A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BE4C08-9912-4C30-A867-8ED42D4B0A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BE4C08-9912-4C30-A867-8ED42D4B0A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A21C71-8B84-4B6D-B04B-FBC893DFFE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A21C71-8B84-4B6D-B04B-FBC893DFFE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A21C71-8B84-4B6D-B04B-FBC893DFFE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A21C71-8B84-4B6D-B04B-FBC893DFFE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6CAB25-88E9-4375-B154-8BAA8918BCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6CAB25-88E9-4375-B154-8BAA8918BCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6CAB25-88E9-4375-B154-8BAA8918BCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6CAB25-88E9-4375-B154-8BAA8918BCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05230DED-5E1D-4177-9BDF-1A05FD3BF43B} = {FABAFBEA-34CD-43E7-925F-B28C101B65C8}
+		{2DB1091B-200F-4F97-A84C-D10D29873299} = {FABAFBEA-34CD-43E7-925F-B28C101B65C8}
+		{9FFBC604-BBD5-4F46-A5D3-24EDB2572672} = {FABAFBEA-34CD-43E7-925F-B28C101B65C8}
+		{B4BE4C08-9912-4C30-A867-8ED42D4B0A01} = {FABAFBEA-34CD-43E7-925F-B28C101B65C8}
+		{90A21C71-8B84-4B6D-B04B-FBC893DFFE9A} = {FABAFBEA-34CD-43E7-925F-B28C101B65C8}
+		{5F6CAB25-88E9-4375-B154-8BAA8918BCD8} = {FABAFBEA-34CD-43E7-925F-B28C101B65C8}
+	EndGlobalSection
+EndGlobal
